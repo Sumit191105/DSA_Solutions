@@ -23,3 +23,6 @@ class Solution {
         return ans;
     }
 }
+
+// Time complexity : O(m*n) for each land ride O(n) and for each water ride O(m)
+// Space Complexity : O(1)
