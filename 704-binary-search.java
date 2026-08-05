@@ -1,4 +1,4 @@
-class Solution {
+/*class Solution {
     public int search(int[] nums, int target) {
         int idx=0;
         for(int i:nums){
@@ -8,7 +8,7 @@ class Solution {
         }
         return -1;
     }
-} // this is not the binary search.
+}  this is not the binary search.*/
 
 class Solution{
     public int search(int[] nums, int target){
