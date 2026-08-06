@@ -26,7 +26,7 @@ class Node {
         while(!q.isEmpty()){
             Node node = q.poll();
             Node cloneNode = map.get(node);
-            for(int adj:node.neighbors){
+            for(Node adj:node.neighbors){
                 if(!map.containsKey(adj)){
                     Node clone = new Node(adj.val);
                     map.put(adj,clone);
